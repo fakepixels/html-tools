@@ -1,3 +1,4 @@
+// Check for saved theme preference, default to light
 const savedTheme = localStorage.getItem('theme') || 'light';
 document.documentElement.setAttribute('data-theme', savedTheme);
 
